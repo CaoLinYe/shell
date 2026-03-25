@@ -36,6 +36,7 @@ while getopts "i:o:s:l:r:t:b:h" opt; do
 		?) usage ;;
     esac
 done
+
 if [[ -n "$SIZE" ]]; then
     LEFT="$SIZE"
     RIGHT="$SIZE"
